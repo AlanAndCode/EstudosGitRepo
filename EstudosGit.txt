@@ -1,3 +1,4 @@
+
 Git and Github
 
 Rm( remover arquivos e repositorios)
@@ -28,3 +29,11 @@ Git push: envia as alteracoes da branch para o repositório remoto
 Git pull:  atualizar repositório local com alterações feitas no repositório remoto.
 Git fetch busca as alterações (commits, branches, tags) do repositório remoto e as traz para o seu repositório local, mas não altera sua branch atual. Usado parra ver o que foi alterado no remoto e nao no local.
 Git merge: mescla atualizações de uma brach  com a branch principal.
+Git diff: mostra diferença entre commit e brach.
+Git diff [nome do diretorio]: mostra diferença no diretório.
+Git diff HEAD ~1:  mostra o que foi alterado no ultimo commit.
+Diff pode ser vists no github também
+
+
+Readme: usado para estilizar o documento e passar instruções sobre.
+
