@@ -1,0 +1,30 @@
+Git and Github
+
+Rm( remover arquivos e repositorios)
+
+Commits semantics: ?
+
+1. build: Alterações que afetam o sistema de construção ou dependências externas (escopos de exemplo: gulp, broccoli, npm),
+2. ci: Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs);
+3. docs: referem-se a inclusão ou alteração somente de arquivos de documentação;
+4. feat: Tratam adições de novas funcionalidades ou de quaisquer outras novas implantações ao código;
+5. fix: Essencialmente definem o tratamento de correções de bugs;
+6. perf: Uma alteração de código que melhora o desempenho;
+7. refactor: Tipo utilizado em quaisquer mudanças que sejam executados no código, porém não alterem a funcionalidade final da tarefa impactada;
+8. style: Alterações referentes a formatações na apresentação do código que não afetam o significado do código, como por exemplo: espaço em branco, formatação, ponto e vírgula ausente etc.);
+9. test: Adicionando testes ausentes ou corrigindo testes existentes nos processos de testes automatizados (TDD);
+10. chore: Atualização de tarefas que não ocasionam alteração no código de produção, mas mudanças de ferramentas, mudanças de configuração e bibliotecas que realmente não entram em produção;
+11. env: basicamente utilizado na descrição de modificações ou adições em arquivos de configuração em processos e métodos de integração contínua (CI), como parâmetros em arquivos de configuração de containers.
+
+
+
+Branch?
+Uma branch é uma linha de desenvolvimento separada no seu repositório. Por padrão, o Git cria uma branch chamada master (ou main em algumas configurações) quando você inicia um repositório.
+
+Git add: adiciona arquivos para estado de commit
+Git commit: registra o commit com os que estão adicionados
+Git log: ver os últimos commits no repositório
+Git push: envia as alteracoes da branch para o repositório remoto
+Git pull:  atualizar repositório local com alterações feitas no repositório remoto.
+Git fetch busca as alterações (commits, branches, tags) do repositório remoto e as traz para o seu repositório local, mas não altera sua branch atual. Usado parra ver o que foi alterado no remoto e nao no local.
+Git merge: mescla atualizações de uma brach  com a branch principal.
